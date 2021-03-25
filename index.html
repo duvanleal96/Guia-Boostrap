@@ -4,6 +4,7 @@
 
 <head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.2.1.min.js"></script>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -12,28 +13,36 @@
 </head>	
 
 <body>
-<nav class="navbar navbar-desafult">
-		<div>
+<nav class="navbar navbar-default">
 	<div>
-	<a class="active "href="#">Rusia 2018</a>
-	</div>
+		<div >	
+			<a class="navbar-brand"href="#">Rusia 2018</a>
+		</div>
 		<div>
 			<ul class="nav navbar-nav">
-				<li><a href="#">Inicio</a></li>
-				<li><a href="#">Sede</a></li>
-				<li><a href="#">Partidos</a></li>
-				<li><a href="#">Grupos A</a></li>
-				<li><a href="#">Grupos B</a></li>
-				<li><a href="#">Grupos C</a></li>
-				<li><a href="#">Grupos D</a></li>
-				<li><a href="#">Contacto</a></li>
+				<li><a class="active" href="#">Inicio</a></li>
+				<li><a class="active" href="#">Sede</a></li>
+				<li><a class="active" href="#">Partidos</a></li>
+				<li><a class="active" href="#">Grupos A</a></li>
+				<li><a class="active" href="#">Grupos B</a></li>
+				<li><a class="active" href="#">Grupos C</a></li>
+				<li class="dropdown">
+					<a class="dropdown-toggle" data-toggle="dropdown" href="#">Grupos H</a>
+					<ul class="dropdown-menu">
+						<li><a href="">Polonia</a></li>
+						<li><a href="">Senegal</a></li>
+						<li><a href="">Colombia</a></li>
+						<li><a href="">Japon</a></li>
+					</ul>
+				</li>
+				<li><a class="active" href="#">Contacto</a></li>
 			</ul>
 		</div>
 	</div>
 </nav>
 	<div class="container">
 		
-	<h1>Mundial de rusiia 2018</h1>
+	<h1>Mundial de rusia 2018</h1>
 		
 	<p>La Copa Mundial de la FIFA Rusia 2018 (en ruso: Чемпионат мира по футболу Россия
 	2018) será la vigésima primera edición de la Copa Mundial de Fútbol. Esta edición del evento se
